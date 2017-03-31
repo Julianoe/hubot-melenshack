@@ -1,0 +1,39 @@
+{
+  "name": "hubot-melenshack",
+  "version": "1.0.0",
+  "description": "Hubot supports Melenchon with a set of images ! Can't Stench the Meluch !",
+  "main": "index.coffee",
+  "author": {
+    "name": "Julianoe",
+    "email": "ju.gasba+npm@gmail.com",
+    "url": "https://github.com/julianoe"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "melenchon",
+    "melenshack"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "script/test",
+    "start": "coffee ./test/server.coffee"
+  },
+  "homepage": "https://github.com/julianoe/hubot-melenshack/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/julianoe/hubot-melenshack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/julianoe/hubot-melenshack/issues"
+  },
+  "dependencies": {
+    "coffee-script": "1.8.x"
+  },
+  "devDependencies": {
+    "mocha": "1.21.x",
+    "chai": "1.9.x",
+    "sinon-chai": "2.5.x",
+    "sinon": "1.10.x"
+  }
+}
